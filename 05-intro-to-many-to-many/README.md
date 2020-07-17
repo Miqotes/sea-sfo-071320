@@ -37,6 +37,10 @@
 * [ ] Practice keeping groups of data related to classes on the class as a class variable
 * [ ] Demonstrate _Single Source of Truth_ by **not** storing collections of objects on other objects
 * [ ] Demonstrate _Single Source of Truth_ by **not** storing one object in multiple collections
+* [ ] Which class creates something, and which classs stores that relationship
+* [ ] How to represent a  has_many and belongs_to
+* [ ] Models/Classes in the same sentences.
+* [ ] Module && Classes in Ruby
 
 ## Deliverables
 * Create a Mountain class. The class should have these methods:
@@ -51,28 +55,6 @@
   * [ ] `mountain` that returns an instance of the Mountain class
   * [ ] `all` that returns all the Hikes created
   * [ ] `mountain_name` that returns the Mountain name of the Hike's Mountain
-
-# Group Activity
-## Deliverables
-* **Create an Author class**. The class should have these methods:
-  * [ ] `initialize` which takes a name and age
-  * [ ] `name` that will a string
-  * [ ] `age` that will return and integer
-  * [ ] An author's `name` cannot be changed but their `age` can be updated
-  * [ ] `books` that returns an array of Book Instances that this author has written
-  * [ ] `write_book` that takes a title, creates a new book, and adds it to the author's book collection
-  * [ ] `books` a books array to keep track of all the books the author has written.
-  * [ ] `book_count` that return all the books this author has written
-  * [ ] `top_author` that will return the author and book count of the author with the most books written
-* **Create a Book class**. The class should have these methods:
-  * [ ] Book has a method `title` that returns a string.
-    - this is a getter method
-  * [ ] Book has a method `author` that returns an instance of the author
-    (1st answer)
-    - class method -> because books only belongs to one author.
-    - instance method -> getter.
-  * [ ] Book has a method `all` that returns all the Books created
-  * [ ] Book has a method `author_name` that returns the name of the book's author
 
 ## Define
 * _Model_ - A class whose primary responsibility is to store data
